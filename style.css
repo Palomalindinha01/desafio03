@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Kavoon&family=Roboto:ital,wght@1,500&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Kavoon&family=Roboto:ital,wght@1,300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    background-color: rgb(243, 243, 243);
+    font-family: 'Roboto';
+    
+}
+.tex{
+
+
+    border-radius: 20px;
+    width: 366px;
+    height: 437px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.texrobo{
+    position: static;
+}
+.texperfil{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -75%);
+}
+
+.tex .texto{
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 28%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.tex .texto h1{
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 55px;
+}
+
+.tex .texto p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25.42px;
+    text-align: center;
+
+}
+.tex .texto button{
+    background: #5C85D4;
+    border-radius: 30px;
+    color: #FFFFFF;
+    width: 176px;
+    height: 48px;
+    font-family: 'Roboto';
+    text-transform: uppercase;
+    cursor: pointer;    
+}
