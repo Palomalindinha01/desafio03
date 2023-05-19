@@ -1,73 +1,54 @@
-@import url('https://fonts.googleapis.com/css2?family=Kavoon&family=Roboto:ital,wght@1,500&display=swap'); 
-@import url('https://fonts.googleapis.com/css2?family=Kavoon&family=Roboto:ital,wght@1,300&display=swap');
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap");
+
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    display: flex;
-    background-color: rgb(243, 243, 243);
-    font-family: 'Roboto';
-    
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+  gap: 20px;
 }
-.tex{
-
-
-    border-radius: 20px;
-    width: 366px;
-    height: 437px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
+.card {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 366px;
+  background-color: #d9d9d9;
+  border-radius: 22px;
+  gap: 20px;
+  padding: 0px 20px 20px 20px;
+  text-align: center;
 }
-.texrobo{
-    position: static;
-}
-.texperfil{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -75%);
-}
-
-.tex .texto{
-    width: 270px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-    top: 28%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    
-}
-.tex .texto h1{
-    font-family: 'Roboto', sans-serif;
-    font-style: italic;
-    font-weight: 700;
-    font-size: 2rem;
-    text-align: center;
-    line-height: 55px;
+.card h1 {
+  margin-top: 40px;
+  font-style: italic;
 }
 
-.tex .texto p{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 25.42px;
-    text-align: center;
+.icon {
+  position: absolute;
+  width: 81px;
+}
 
+.card button {
+  width: 176px;
+  height: 48px;
+  border-radius: 20px;
+  background-color: #5c85d4;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
 }
-.tex .texto button{
-    background: #5C85D4;
-    border-radius: 30px;
-    color: #FFFFFF;
-    width: 176px;
-    height: 48px;
-    font-family: 'Roboto';
-    text-transform: uppercase;
-    cursor: pointer;    
-}
+
+
+
